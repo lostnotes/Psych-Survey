@@ -1,0 +1,110 @@
+body {
+    background-image: radial-gradient(rgb(246, 242, 228) 50%, rgb(232, 228, 213));
+    font-family: verdana, sans-serif;
+  }
+h1 {
+  text-align: center;
+
+}
+#description {
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+  color: gray;
+}
+form {
+  width: 75%;
+  margin: 0 auto;
+  border-style: none;
+  
+}
+fieldset {
+  border-style: solid;
+  border-bottom: 3 px rgb(232, 228, 213);
+  border-top: none;
+  border-left:none;
+  border-right: none;
+}
+h4 {
+  text-align: center;
+}
+#name,#email,#age,#gender,#nationality,#dropdown,#length-of-stay,#known-lang {
+  display: block;
+  margin: 5px 0;
+  line-height: 1.4;
+  background-color: rgb(246, 244, 236);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(232, 228, 213);
+  box-shadow:rgb(247,244,230)
+}
+#name, #email, #known-lang {
+  width: 100%;
+}
+#gender, #nationality, #dropdown, #length-of-stay {
+  padding: 5px;
+}
+#gender-label, #nationality-label,#current-label,#los-label {
+ line-height: 1.4;
+}
+#known-lang {
+  margin-bottom: 17px;
+}
+#move-time {
+  display: block;
+  margin: 5px;
+
+}
+#move-reason {
+  display:block;
+  margin: 5px;
+}
+#adapt {
+  padding: 10px;
+  margin: 0 7px;
+}
+.adapt {
+  margin-bottom: 17px;
+}
+#lang-bar {
+  padding: 10px;
+  margin: 0 7px;
+}
+#cult-norm {
+  padding: 10px;
+  margin: 0 7px;
+}
+#soc-iso {
+  padding: 10px;
+  margin: 0 7px;
+}
+#coping-mech {
+  display: block;
+  margin: 5px;
+}
+.button-submit {
+  text-align: center;
+  margin: 10px auto;
+}
+button {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(250, 242, 204);
+  border-style: solid;
+  border-color:rgb(140, 135, 115);
+color:rgb(140, 135, 115);
+
+}
+input[type="text"] {
+  background-color:rgb(246, 244, 236);
+  border-style: solid;
+  border-color: rgb(232, 228, 213);
+}
+textarea { 
+  background-color:rgb(246, 244, 236);
+  border-style: solid;
+  border-color: rgb(232, 228, 213);
+}
+fieldset:last-of-type {
+  border: none;
+}
